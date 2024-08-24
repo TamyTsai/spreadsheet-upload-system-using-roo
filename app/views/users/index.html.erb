@@ -2,6 +2,14 @@
 
 <h1>Users</h1>
 
+<%= form_with url: nil, method: :post do |form| %>
+  <%= form.file_field :excel_file %>
+<% end %>
+<!-- 
+<form enctype="multipart/form-data" action="/users" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g_fHSqRucPyLUZPBCsbeIXwJgrkXYazfyihAbz2-8z0dIummpvUhY3h5q-CY2RcjERk_swahreCb7KTJQv0KBw" autocomplete="off" />
+  <input type="file" name="excel_file" id="excel_file" />
+</form> -->
+
 <div id="users">
   <% @users.each do |user| %>
     <%= render user %>
