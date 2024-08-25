@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show edit update destroy ]
 
+  # require 'roo'
+  # 有在Gemfile裡寫這個套件，所以不用另外require，跑rails s就會自動require
+
   # GET /users or /users.json
   def index
     @users = User.all
@@ -55,6 +58,22 @@ class UsersController < ApplicationController
       format.html { redirect_to users_url, notice: "User was successfully destroyed." }
       format.json { head :no_content }
     end
+  end
+
+  def import
+    # puts params
+    excel = Roo::Spreadsheet.open(params[:excel_file].path)
+
+    excel.each_row_streaming(offset: 1) do |row| # 去掉表頭(第一列)
+      user = User.new
+      # row[0] && row[0].value
+      user.name = row[0]&.value # 將excel檔案的第一「欄」資料的值存進user實體中的name欄位 # & 用來確保欄位有值
+      user.age = row[1]&.value
+      user.save # 存入資料庫
+    end
+
+    flash[:success] = "資料已儲存完成"
+    redirect_to root_path
   end
 
   private

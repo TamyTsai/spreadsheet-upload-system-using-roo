@@ -261,7 +261,7 @@ DEPENDENCIES
   jbuilder
   puma (>= 5.0)
   rails (~> 7.1.4)
-  roo (~> 2.10, >= 2.10.1)
+  roo (~> 2.10.0)
   selenium-webdriver
   sprockets-rails
   sqlite3 (>= 1.4)

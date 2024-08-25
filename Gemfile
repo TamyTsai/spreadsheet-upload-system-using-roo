@@ -45,7 +45,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # roo gem 用來操作表格
-gem 'roo', '~> 2.10', '>= 2.10.1'
+gem "roo", "~> 2.10.0"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
