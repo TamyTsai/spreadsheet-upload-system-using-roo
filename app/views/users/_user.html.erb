@@ -1,12 +1,17 @@
 <div id="<%= dom_id user %>">
   <p>
-    <strong>Name:</strong>
+    <strong>姓名:</strong>
     <%= user.name %>
   </p>
 
   <p>
-    <strong>Age:</strong>
+    <strong>年齡:</strong>
     <%= user.age %>
+  </p>
+
+  <p>
+    <strong>頭貼:</strong>
+    <%= image_tag user.avatar if user.avatar.attached? %>
   </p>
 
 </div>

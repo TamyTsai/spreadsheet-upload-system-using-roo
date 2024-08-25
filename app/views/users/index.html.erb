@@ -14,10 +14,14 @@
 <div id="users">
   <% @users.each do |user| %>
     <%= render user %>
+    <!-- <%= render partial: "users/user", locals: { user: user } %> -->
+    <!-- 第一個user是局部渲染檔案中的區域變數名稱，第二個user是此迴圈中傳入的個別實體變數@user -->
     <p>
-      <%= link_to "Show this user", user %>
+      <%= link_to "詳細資訊", user %>
+      <!-- <%= link_to "詳細資訊", user_path(user) %> -->
+      <!-- <%= link_to "詳細資訊", user_path(user.id) %> -->
     </p>
   <% end %>
 </div>
 
-<%= link_to "New user", new_user_path %>
+<%= link_to "新建使用者", new_user_path %>
