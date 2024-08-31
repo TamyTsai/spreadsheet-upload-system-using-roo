@@ -8,9 +8,9 @@
 ## 安裝 -->
 
 ## 專案技術
-前端：HTML、Simple.css
-後端：Ruby on Rails
-版本控制：Git
+- 前端：HTML、Simple.css
+- 後端：Ruby on Rails
+- 版本控制：Git
 
 <!-- ## 使用技術詳細說明
 
