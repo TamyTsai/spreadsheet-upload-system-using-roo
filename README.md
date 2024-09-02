@@ -3,9 +3,31 @@
 ## 關於使用者試算表上傳系統
 - 一個可以將試算表內容直接匯入資料表，然後呈現出來的網頁
   
-<!-- ## 專案畫面與功能介紹
+<!-- ## 專案畫面與功能介紹 -->
 
-## 安裝 -->
+## 安裝
+以下皆為於macOS環境運行
+### 安裝Ruby
+```bash
+$ brew install ruby
+```
+### 安裝Rails v7.1.3.4
+```bash
+$ gem install rails -v 7.1.3.4
+```
+### 安裝相關套件
+```bash
+$ bundle install
+```
+### 啟動rails伺服器及編譯器
+```bash
+$ rails s
+```
+### 開啟專案
+在瀏覽器網址列輸入以下網址即可看到專案首頁
+```bash
+http://localhost:3000/
+```
 
 ## 專案技術
 - 前端：HTML、Simple.css
