@@ -34,7 +34,8 @@ http://localhost:3000/
 - 後端：Ruby on Rails
 - 版本控制：Git
 
-<!-- ## 使用技術詳細說明 -->
+## 使用技術詳細說明
+- 以HTML、CSS及Ruby撰寫，為動態網頁
 
 ## 聯絡作者
 你可以透過email與我聯絡：tamy8677@gmail.com
