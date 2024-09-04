@@ -36,6 +36,7 @@ http://localhost:3000/
 
 ## 使用技術詳細說明
 - 以HTML、CSS及Ruby撰寫，為動態網頁
+- 使用Simple.css做簡單快速的網頁美化
 
 ## 聯絡作者
 你可以透過email與我聯絡：tamy8677@gmail.com
