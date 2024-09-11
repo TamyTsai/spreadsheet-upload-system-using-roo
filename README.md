@@ -6,7 +6,14 @@
   
 ## 專案畫面與功能介紹
 ### 使用者列表
+點擊選擇檔案可挑選擇含有欲整批匯入的使用者資料之檔案，檔案上傳後，點擊Save，資料就會直接顯示於下方列表
+
 ![截圖 2024-09-08＿使用者列表頁面](https://github.com/user-attachments/assets/83f45b94-e8f2-4b75-9071-efc1c6d2b31d)
+
+<hr>
+
+### 欲整批匯入的使用者資料之檔案
+![截圖 2024-09-08＿Excel檔案](https://github.com/user-attachments/assets/39421f3a-f9f4-4790-b1b4-f020c30cfd3a)
 
 <hr>
 
