@@ -21,6 +21,13 @@
 ### 單一使用者資訊
 ![截圖 2024-09-08 單一使用者資訊頁面](https://github.com/user-attachments/assets/8d993304-0f5f-4142-ba44-833a06cb34df)
 
+<hr>
+
+### 新建使用者資訊
+- 使用者資訊除了可以用檔案整批匯入外，也可以單筆新增
+
+![截圖 2024-09-08 新建使用者頁面](https://github.com/user-attachments/assets/5191dc30-68bc-4b9d-8eb1-6428f7a6d065)
+
 ## 安裝
 以下皆為於macOS環境運行
 ### 安裝Ruby
