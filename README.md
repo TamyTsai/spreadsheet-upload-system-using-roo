@@ -28,6 +28,13 @@
 
 ![截圖 2024-09-08 新建使用者頁面](https://github.com/user-attachments/assets/5191dc30-68bc-4b9d-8eb1-6428f7a6d065)
 
+<hr>
+
+### 編輯使用者
+- 編輯既有使用者資訊
+
+![截圖 2024-09-08 編輯使用者頁面](https://github.com/user-attachments/assets/247cbf5a-bae9-4ea1-9636-825767fb381e)
+
 ## 安裝
 以下皆為於macOS環境運行
 ### 安裝Ruby
